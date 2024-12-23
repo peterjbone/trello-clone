@@ -1,5 +1,5 @@
 import Image from "next/image";
 
 export default function Home() {
-	return <div>Hello trello</div>;
+	return <div className="text-sky-500">Hello trello</div>;
 }
