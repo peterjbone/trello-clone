@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Medal } from "lucide-react";
 import React from "react";
 
@@ -19,8 +20,9 @@ const MarketingPage = () => {
 			</div>
 			<div className="text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
 				Collaborate, manage new projects and reach new productivity peaks. From high
-				rises to home office, the way your team works
+				rises to home office, the way your team works is unique.
 			</div>
+			<Button></Button>
 		</div>
 	);
 };
