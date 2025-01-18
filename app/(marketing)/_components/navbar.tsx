@@ -11,7 +11,9 @@ export const Navbar = () => {
 					<Button size="sm" variant="outline" asChild>
 						<Link href="/sign-in">Login</Link>
 					</Button>
-					<Button>get tasktify for free</Button>
+					<Button size="sm" asChild>
+						<Link href="/sign-up">get tasktify for free</Link>
+					</Button>
 				</div>
 			</div>
 		</div>
